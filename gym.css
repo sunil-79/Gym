@@ -1,0 +1,114 @@
+body{
+    margin: 0%;
+    font-family: 'Baloo 2', cursive;
+    padding: 0%;
+    background:url(muscles.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.left{
+    width: 10%;
+    display: inline-block;
+    position: absolute;
+}
+.left img{
+    height: 40px;
+    filter: invert(100%);
+    margin: 10;
+    padding: 10;
+    
+}
+.left p{
+    margin: 0;
+    font-size: 20px;
+}
+.mid{
+    width: 60%;
+    height: 60px;
+    text-align: center;
+    font-size: 25px;
+    margin: 2px auto;
+
+
+}
+.nav{
+    position: absolute;
+    top: -20px;
+}
+.nav li{
+    list-style: none;
+    display: inline-block;
+    padding: 2px 23px;
+    
+}
+.nav li a{
+    color: white;
+    text-decoration: none;
+}
+.nav li a:hover, .nav li a.active{
+    background-color: rgb(228, 220, 220,0.3);
+    border-radius: 15px;
+}
+.right{
+    width: 10%;
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+
+}
+.btn{
+    color: white;
+    background-color: rgb(199, 192, 192);
+    border-radius: 10px;
+    box-shadow: rgb(61, 58, 58) 2px 3px;
+}
+.container {
+    margin: 26px 52px;
+    padding: 0px 15px;
+    border-radius: 2px;
+    width: 43%;
+    text-align: center;
+    font-size: 25px;
+}
+.label{
+    position: relative;
+    margin: 0px 6px;
+    padding: 0px 2px;
+    width: 41%;
+    display: inline-block;
+    /* position: absolute; */
+    top: -27px;
+    line-height: 68px;
+
+}
+.field{
+    margin: 2px 2px;
+    padding: 2px 2px;
+    display: inline-block;
+    width: 42%;
+    position: relative;
+    top: -25px;
+    line-height: 68px;
+}
+.field div{
+    font-family: 'Baloo 2', cursive;
+}
+    
+.bt{
+    padding: 8px 10px;
+    background-color: honeydew;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 40px;
+    width: 20%;
+    font: 25px;
+}
+.bt:hover{
+    transition: 2s;
+    background-color: rgb(168, 180, 168);
+    border-radius: 15px;
+    transform: rotateX(45);
+}
+
